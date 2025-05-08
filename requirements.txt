@@ -3,7 +3,7 @@ numpy>=1.20.0
 matplotlib>=3.4.0
 pytest>=6.2.5
 
-# Voice recognition - alternative to openai-whisper
+# Voice recognition
 SpeechRecognition>=3.8.1
 pyaudio>=0.2.11
 
@@ -19,8 +19,12 @@ solidpython>=1.1.0
 sqlalchemy>=1.4.0
 alembic>=1.7.0
 
-# Utilities
+# UI and utilities
 tqdm>=4.62.0
 colorama>=0.4.4
 rich>=10.0.0
 click>=8.0.0
+
+# Additional dependencies
+pydantic>=1.8.2
+pillow>=8.3.1
